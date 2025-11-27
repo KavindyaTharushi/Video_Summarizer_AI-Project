@@ -85,15 +85,6 @@ The landing page (`index.py`) includes a “Get Started” button that routes to
 
 ---
 
-### 🚀 Roadmap Ideas
-- Persist conversation history per session.
-- Add timestamp-level highlight extraction.
-- Support batch processing + job queue.
-- Export summaries to PDF / Notion / Slack.
-- Add evaluation metrics (confidence, citations).
-
----
-
 ### 🛠️ Troubleshooting
 - **`GOOGLE_API_KEY missing`**: ensure `.env` is loaded and Streamlit was started from the project root.
 - **Processing stuck on “Uploading & analyzing video”**: Gemini may still be transcoding the file. Longer clips can take up to a couple of minutes.
